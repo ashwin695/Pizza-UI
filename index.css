@@ -1,0 +1,32 @@
+.pizza-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.pizza-base, .toppings {
+  width: 30%;
+}
+
+.pizza-base img, .toppings img {
+  width: 50%;
+}
+
+.empty-circle {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #000;
+  border-radius: 50%;
+  background: #fff url('empty-circle.jpg') no-repeat center center;
+  background-size: contain;
+  position: relative;
+}
+
+.tops {
+  width: 200px;
+  position: relative;
+}
+
+.base {
+  position: absolute;
+}
